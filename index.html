@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Darkmode con Javascript</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
 	<div class="contenedor">
 		<nav>
@@ -17,7 +19,7 @@
 				<a href="#">Inicio</a>
 				<a href="#">Galeria</a>
 				<a href="https://github.com/BrianSotalin">Contacto</a>
-				<button class="switch"  id="switch">
+				<button class="switch" id="switch">
 					<span><i class="fas fa-sun"></i></span>
 					<span><i class="fas fa-moon"></i></span>
 				</button>
@@ -28,43 +30,46 @@
 			<div class="card">
 				<img src="img/01.jpg" alt="">
 				<div class="botones">
-					<a href="#" class="boton primario">Descargar</a>
-					<a href="#" class="boton secundario">Ver más</a>
+					<a href="#" class="boton primario"
+						onclick="downloadImage('https://images.unsplash.com/photo-1593305841991-05c297ba4575?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1514&q=80', 'Gaming.png')">Descargar</a>
+					<a href="https://unsplash.com/s/photos/gaming" class="boton secundario">Ver más</a>
+
 				</div>
 			</div>
 			<div class="card">
 				<img src="img/022.jpg" alt="">
 				<div class="botones">
-					<a href="#" class="boton primario">Descargar</a>
-					<a href="#" class="boton secundario">Ver más</a>
+					<a href="#" class="boton primario"
+						onclick="downloadImage('https://images.unsplash.com/photo-1606490114832-d41056bdca34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80', 'Fifa21.png')">Descargar</a>
+					<a href="https://unsplash.com/s/photos/fifa" class="boton secundario">Ver más</a>
 				</div>
 			</div>
 			<div class="card">
 				<img src="img/03.jpg" alt="">
 				<div class="botones">
-					<a href="#" class="boton primario">Descargar</a>
-					<a href="#" class="boton secundario">Ver más</a>
+					<a href="#" class="boton primario " onclick="downloadImage('https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80', 'Game.png')">Descargar</a>
+					<a href="https://unsplash.com/s/photos/game" class="boton secundario">Ver más</a>
 				</div>
 			</div>
 			<div class="card">
 				<img src="img/04.jpg" alt="">
 				<div class="botones">
-					<a href="#" class="boton primario">Descargar</a>
-					<a href="#" class="boton secundario">Ver más</a>
+					<a href="#" class="boton primario" onclick="downloadImage('https://images.unsplash.com/photo-1619253790960-83acb6df8cc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80', 'Sonic.png')">Descargar</a>
+					<a href="https://unsplash.com/s/photos/sonic" class="boton secundario">Ver más</a>
 				</div>
 			</div>
 			<div class="card">
 				<img src="img/05.jpg" alt="">
 				<div class="botones">
-					<a href="#" class="boton primario">Descargar</a>
-					<a href="#" class="boton secundario">Ver más</a>
+					<a href="#" class="boton primario" onclick="downloadImage('https://images.unsplash.com/photo-1627856013091-fed6e4e30025?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80', 'Pokemon.png')">Descargar</a>
+					<a href="https://unsplash.com/s/photos/pokemon" class="boton secundario">Ver más</a>
 				</div>
 			</div>
 			<div class="card">
 				<img src="img/06.jpg" alt="">
 				<div class="botones">
-					<a href="#" class="boton primario">Descargar</a>
-					<a href="#" class="boton secundario">Ver más</a>
+					<a href="#" class="boton primario" onclick="downloadImage('https://images.unsplash.com/photo-1551103782-8ab07afd45c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80', 'MarioBros.png')">Descargar</a>
+					<a href="https://unsplash.com/s/photos/mario-bros" class="boton secundario">Ver más</a>
 				</div>
 			</div>
 		</section>
@@ -72,4 +77,5 @@
 
 	<script src="js/main.js"></script>
 </body>
+
 </html>
