@@ -233,6 +233,20 @@ body.dark .grid .botones .boton.primario{
 body.dark .grid .card .botones .boton.primario:hover {
   background: rgb(252, 184, 59);
 }
+footer{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  transition: .3s ease all;
+}
+footer:hover{
+  letter-spacing: 2px;
+}
+body.dark footer{
+  color: silver;
+}
 
 /*# sourceMappingURL=estilos.css.map */
 
